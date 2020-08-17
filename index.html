@@ -58,8 +58,35 @@
       <div class="container">
         <h1 class="page-title">Эффективные решения для вашего бизнеса</h1>
         <button class="btn-header">
-          <span class="button-text">Заказать услугу</span>
+          <span data-modal-open class="button-text">Заказать услугу</span>
         </button>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <p class="modal-title">
+            Оставьте свои данные, мы Вам перезвоним
+          </p>
+          <div>
+            <p class="modal-window modalwindow-text">
+              <svg class="mail-icon" width="16" height="11">
+                <use href="./icons/sprite.svg#icon-mail"></use>
+              </svg>Имя</p>
+            <p class="modal-window modalwindow-text">
+              <svg class="mail-icon" width="16" height="11">
+                <use href="./icons/sprite.svg#icon-mail"></use>
+              </svg>Телефон</p>
+            <p class="modal-window modalwindow-text">
+              <svg class="mail-icon" width="16" height="11">
+                <use href="./icons/sprite.svg#icon-mail"></use>
+              </svg>Почта</p>
+            <p class="comment-window modalwindow-text">Комментарий</p>
+              <button class="btn adress-margin">
+              <span class="button-text flexbox-list">Отправить</span>
+          
+          </div>
+          
+          <button data-modal-close>Закрыть</button>
+        </div>
       </div>
     </section>
     <!-- Преимущества> -->
@@ -423,6 +450,7 @@
       </div>
     </section>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
