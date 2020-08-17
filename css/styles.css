@@ -436,7 +436,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1, 714x;
-  /* identical to box height, or 171% */
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -491,6 +490,14 @@ body {
   font-size: 14px;
   line-height: 1, 142;
   letter-spacing: 0.01em;
+}
+.icon-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.icon-close-hover:hover .icon-close {
+  fill: var(--accent-color);
 }
 
 .inline-block {
