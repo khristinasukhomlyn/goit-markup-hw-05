@@ -408,8 +408,6 @@ body {
   margin: 0 0;
 }
 .modal-title {
-  padding: 40px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -420,18 +418,71 @@ body {
 
   color: #212121;
 }
-
+.modal-padding {
+  padding-top: 9px;
+  padding-left: 15px;
+}
+.modal-icon {
+  margin-right: 8px;
+}
 .modal-window {
   width: 450px;
   height: 40px;
   border: 1px solid var(--main-color);
   border-radius: 4px;
+  margin-left: 40px;
+}
+.modal-agree-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 714x;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: var(--light-color);
+  padding: 10px 32px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 164px;
+  margin-bottom: 40px;
+}
+.modal-terms-text {
+  font-style: 400;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: #2196f3;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--light-color);
+}
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active {
+  color: var(--accent-color);
 }
 .comment-window {
   width: 450px;
   height: 120px;
   border: 1px solid var(--main-color);
   border-radius: 4px;
+  margin-left: 40px;
 }
 
 .modalwindow-text {
