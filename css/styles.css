@@ -316,22 +316,13 @@ body {
   width: 100%;
   height: 100%;
   background-color: var(--accent-color);
-  nsition-duration: 250ms;
   opacity: 0;
 }
 
 .product-thumb:hover::before {
   opacity: 90%;
 }
-.product-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 70px;
-  text-align: center;
-  padding-top: 27px;
-}
+
 .product {
   position: relative;
 }
