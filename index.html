@@ -67,6 +67,12 @@
             Оставьте свои данные, мы Вам перезвоним
           </p>
           <div>
+            <form class="contacts-us-form" id="contact-form">
+              <input class="contact-us-field" type="text" name="user-name" placeholder="Имя" required>
+              <input class="contact-us-field" type="tel" name="user-phone" placeholder="Телефон" required>
+              <input class="contact-fus-ield" type="email" name="user-email" placeholder="Почта" required>
+              <textarea class="contact-us-field" name="message" id="" placeholder="Комментарий" cols="30" rows="10"></textarea>
+            </form>
             <p class="modal-window modalwindow-text modal-padding">
               <svg class="modal-icon" width="18" height="18">
                 <use href="./icons/sprite.svg#icon-personmodal"></use>
@@ -103,7 +109,7 @@
       </div>
     </section>
     <!-- Преимущества> -->
-    <section class="section margin-section">
+    <section class="margin-section">
       <div class="container">
         <ul class="list">
           <div class="flexbox-list">
@@ -152,25 +158,31 @@
               <div class="product">
               <img class="img" src="./imagespage1/activitiesphoto/img1.jpg" width="370" height="294"
                 alt="Десктоп ноутбука" />
-              <h3 class="advantage-title white-title background-title">
-                Десктопные приложения
-              </h3></div>
+                <div class="advantage-absolute-title">
+                 <h3 class="advantage-title white-title">Десктопные приложения</h3>
+                </div>
             </li>
             <li class="team-item">
               <div class="product">
-              <img class="img" src="./imagespage1/activitiesphoto/img2.jpg" width="370" height="294"
+               <img class="img" src="./imagespage1/activitiesphoto/img2.jpg" width="370" height="294"
                 alt="Мобильный телефон" />
-              <h3 class="advantage-title white-title background-title">
-                Мобильные приложения
-              </h3></div>
+                <div class="advantage-absolute-title">
+                 <h3 class="advantage-title white-title">
+                  Мобильные приложения
+                 </h3>
+                </div>
+              </div>
             </li>
             <li class="team-item">
               <div class="product">
-              <img class="img" src="./imagespage1/activitiesphoto/img3.jpg" width="370" height="294"
+               <img class="img" src="./imagespage1/activitiesphoto/img3.jpg" width="370" height="294"
                 alt="Монитор компьютера" />
-              <h3 class="advantage-title white-title background-title">
-                Дизайнерские решения
-              </h3></div>
+                <div class="advantage-absolute-title">
+                 <h3 class="advantage-title white-title background-title">
+                   Дизайнерские решения
+                 </h3>
+                </div>
+              </div>
             </li>
           </div>
         </ul>
