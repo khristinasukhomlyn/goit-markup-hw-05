@@ -100,6 +100,14 @@ body {
 }
 .padding-section {
   padding-top: 94px;
+  padding-bottom: 94px;
+}
+.poftfolio-padding {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.product-padding {
+  padding-top: 94px;
 }
 .margin-works:nth-child(-n + 3) {
   margin-top: 34px;
@@ -420,6 +428,7 @@ body {
   text-transform: uppercase;
   color: var(--light-color);
   margin: 0 0 30px;
+  margin: auto;
   width: 696px;
 }
 .section-title {
@@ -430,6 +439,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--semidark-color);
   margin-bottom: 50px;
+  margin-top: 0px;
 }
 .advantage-title {
   font-weight: 700;
@@ -438,7 +448,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--semidark-color);
-  text-align: center;
 }
 .modal {
   position: absolute;
@@ -610,6 +619,7 @@ body {
   line-height: 1.714em;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-bottom: 0px;
 }
 
 .name-description {
@@ -774,7 +784,8 @@ body {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
   padding: 10px 32px;
-  margin-left: 250px;
+  margin-left: 495px;
+  margin-top: 44px;
   transition: background-color 250ms var(--timing-function);
   transition: color 250ms var(--timing-function);
 }
