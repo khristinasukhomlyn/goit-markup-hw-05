@@ -311,12 +311,16 @@ body {
   width: 272px;
   border-radius: 4px;
   background-color: var(--light-color);
+}
+.teammembers-box:hover {
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 .works-box {
   width: 370px;
   margin-bottom: 30px;
   transition: box-shadow 250ms var(--timing-function);
+}
+.works-box:hover {
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
 
