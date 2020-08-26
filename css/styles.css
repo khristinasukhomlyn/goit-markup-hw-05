@@ -72,6 +72,7 @@ body {
       rgba(47, 48, 58, 0.4) 100%
     ),
     url(../imagespage1/header.jpg);
+  background-size: cover;
 
   height: 600px;
   padding: 200px 0;
@@ -311,7 +312,15 @@ body {
   width: 272px;
   border-radius: 4px;
   background-color: var(--light-color);
+  overflow: hidden;
 }
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .teammembers-box:hover {
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
