@@ -24,7 +24,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714em;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
@@ -467,8 +467,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 581px;
-  width: 528px;
+  padding: 40px;
   background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
@@ -476,6 +475,9 @@ body {
 
 .modal-icon {
   margin-right: 8px;
+  position: absolute;
+  top: 40px;
+  left: 10px;
 }
 
 .modal-btn {
@@ -501,7 +503,7 @@ body {
 .modal-terms-text {
   font-style: 400;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.714em;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
@@ -517,10 +519,9 @@ body {
   font-size: 20px;
   line-height: 1.15em;
   text-align: center;
-  vertical-align: top;
   letter-spacing: 0.03em;
   color: var(--semidark-color);
-  margin-top: 40px;
+  margin-top: 0px;
   margin-bottom: 0px;
 }
 .modal-agree-text {
@@ -533,15 +534,33 @@ body {
   color: var(--main-color);
 }
 
+.form-field {
+  position: relative;
+  padding-top: 30px;
+}
+
+.form-lable {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.167em;
+  letter-spacing: 0.01em;
+  color: var(--main-color);
+}
+
+.phone-lable {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .contact-us-field {
   width: 450px;
   height: 40px;
   border: 1px solid var(--main-color);
   border-radius: 4px;
-  margin-left: 40px;
-  margin-top: 28px;
-  padding-top: 9px;
-  padding-left: 15px;
   color: var(--main-color);
   font-weight: 400;
   font-size: 14px;
@@ -554,14 +573,12 @@ body {
   height: 125px;
   border: 1px solid var(--main-color);
   border-radius: 4px;
-  margin-left: 40px;
-  margin-top: 28px;
   padding-top: 9px;
   padding-left: 15px;
   color: var(--main-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 142;
+  line-height: 1, 142em;
   letter-spacing: 0.01em;
 }
 
