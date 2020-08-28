@@ -165,11 +165,8 @@ body {
   text-decoration: none;
   transition: color 250ms var(--timing-function);
 }
-.menu-current {
-  color: var(--accent-color);
-  text-decoration: none;
-}
-.menu-current::after {
+
+.current::after {
   content: "";
   position: relative;
   display: block;
